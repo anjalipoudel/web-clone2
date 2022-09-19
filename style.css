@@ -1,0 +1,266 @@
+/* main */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+/* top-navbar */
+
+.topnavbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto";
+}
+
+.topnavbar ul {
+  margin: auto;
+  list-style: none;
+}
+
+.topnavbar ul a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.topnavbar ul a:hover {
+  color: #5e3bee;
+}
+.topnavbar ul a:active {
+  color: #5e3bee;
+}
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.navbar-btn {
+  float: right;
+  color: #5e3bee;
+  font-size: 16px;
+  border: 1px solid #5e3bee;
+  background-color: #ffffff;
+  padding: 14px 32px 14px 32px;
+  border-radius: 4px;
+}
+.navbar-btn:hover {
+  color: #ffffff;
+  background-color: #5e3bee;
+  border: 1px solid #5e3bee;
+}
+.navbar-brand {
+  display: flex;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* hero-section */
+
+.hero-section {
+  width: 100%;
+  height: 560px;
+  background-color: #f5fcff;
+  display: flex;
+  gap: 5%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.col1 {
+  width: 45%;
+  flex-direction: column;
+  float: left;
+}
+
+.col2 {
+  width: 45%;
+  flex-direction: column;
+  float: left;
+}
+
+.col2 img {
+  height: 500px;
+  width: auto;
+}
+
+.intro {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+}
+.create {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+}
+.create span {
+  color: #bb03bb;
+}
+.lorem {
+  font-weight: 400;
+}
+.getbtn {
+  display: flex;
+  font-size: 16px;
+  margin-top: 15px;
+  border: none;
+  background: #5e3bee;
+  border-radius: 4px;
+  padding: 14px 32px;
+  color: #ffffff;
+}
+
+.title-section,
+.project-heading {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+.heading,
+.project-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.sub-title,
+.project-subtitle {
+  font-weight: 700;
+  font-size: 48px;
+}
+.content {
+  height: 200px;
+  background-color: #f5fcff;
+  border-radius: 8px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.section-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.content-section {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: left;
+  gap: 30px;
+}
+
+.Skills {
+  height: 700px;
+}
+.content img {
+  height: 35px;
+  width: 35px;
+  left: 10px;
+  top: 10px;
+  border-radius: 0px;
+  float: left;
+}
+
+.icon-bg {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+.frame {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+}
+.frame img {
+  height: 500px;
+  width: 100%;
+}
+.about {
+  width: 50%;
+  align-content: center;
+  text-align: left;
+  justify-content: center;
+  padding: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.about p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.frame-subtitle {
+  font-size: 16px;
+}
+.frame-title {
+  font-size: 48px;
+}
+.project {
+  flex-direction: row;
+  height: 700px;
+  width: 100%;
+}
+.card {
+  height: 416px;
+  width: 90%;
+  gap: 1%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.ahuse {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.ahuse img {
+  width: 100%;
+  height: auto;
+}
+.card-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  width: 85%;
+  margin: auto;
+}
+
+.card-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 85%;
+  margin: auto;
+}
