@@ -43,7 +43,7 @@
 }
 .navbar-btn {
   float: right;
-  color: #5e3bee;
+  color: #250a92;
   font-size: 16px;
   border: 1px solid #5e3bee;
   background-color: #ffffff;
@@ -51,6 +51,7 @@
   border-radius: 4px;
 }
 .navbar-btn:hover {
+  font-family: cursive;
   color: #ffffff;
   background-color: #5e3bee;
   border: 1px solid #5e3bee;
@@ -107,17 +108,18 @@
   font-size: 56px;
 }
 .create span {
-  color: #bb03bb;
+  color: #e44ae4;
 }
 .lorem {
   font-weight: 400;
 }
 .getbtn {
+  font-family: cursive;
   display: flex;
   font-size: 16px;
   margin-top: 15px;
   border: none;
-  background: #5e3bee;
+  background: #250b8e;
   border-radius: 4px;
   padding: 14px 32px;
   color: #ffffff;
@@ -184,7 +186,7 @@
 .icon-bg {
   height: 40px;
   width: 40px;
-  background-color: white;
+  background-color: rgb(104, 134, 167);
   display: flex;
   justify-content: center;
   align-items: center;
